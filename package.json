@@ -1,0 +1,27 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "author": "Srikanth Saindla",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5",
+    "D": "^1.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.19",
+    "react-bootstrap": "^2.5.0",
+    "react-icons": "^4.4.0",
+    "styled-components": "^5.3.5"
+  }
+}
